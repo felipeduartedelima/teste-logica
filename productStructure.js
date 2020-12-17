@@ -27,7 +27,7 @@ module.exports = () => {
     const [color, size] = cur.split("-")
     acc[color] = { ...acc[color], [size]: numbers[size] }
 
-    return acc;
+    return acc
   }, {})
-  return rightFormat;
+  return rightFormat
 }
